@@ -3,13 +3,13 @@ kind: List
 metadata: {}
 items:
 - apiVersion: v1
-  kind: BuildConfig
+kind: BuildConfig
   metadata:
-    annotations:
-      pipeline.alpha.openshift.io/uses: '[{"name": "ciprojectdetails", "namespace": "microservices-devops", "kind": "DeploymentConfig"}]'
+  annotations:
+    pipeline.alpha.openshift.io/uses: '[{"name": "ciprojectdetails", "namespace": "microservices-devops", "kind": "DeploymentConfig"}]'
     name: cart-service-pipeline
-  spec:
-    source:
+   spec:
+   source:
       git:
         ref: pipeline
         uri: https://github.com/abhijitrpanchal/ci_employee_project.git

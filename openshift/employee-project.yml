@@ -6,7 +6,7 @@ items:
   kind: BuildConfig
   metadata:
     annotations:
-      pipeline.alpha.openshift.io/uses: '[{"name": "ciprojectdetails", "namespace": "microservices-devops", "kind": "DeploymentConfig"}]'
+      pipeline.alpha.openshift.io/uses: '[{"name": "ciprojectdetails", "namespace": "", "kind": "DeploymentConfig"}]'
     name: ciprojectdetails-pipeline
    spec:
      source:

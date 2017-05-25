@@ -7,7 +7,7 @@ items:
   metadata:
     annotations:
       pipeline.alpha.openshift.io/uses: '[{"name": "ciprojectdetails", "namespace": "microservices-devops", "kind": "DeploymentConfig"}]'
-    name: cart-service-pipeline
+    name: ciprojectdetails-pipeline
   spec:
     source:
       git:
@@ -20,5 +20,5 @@ items:
         jenkinsfilePath: Jenkinsfile
     triggers:
     - generic:
-        secret: FiArdDBH
+        secret: 
       type: Generic

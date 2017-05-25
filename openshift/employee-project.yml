@@ -7,7 +7,7 @@ items:
   metadata:
     annotations:
       pipeline.alpha.openshift.io/uses: '[{"name": "ciprojectdetails", "namespace": "", "kind": "DeploymentConfig"}]'
-    name: ci-employee-project-pipeline
+    name: project-service-pipeline
   spec:
     source:
       git:

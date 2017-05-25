@@ -20,6 +20,6 @@ items:
          jenkinsfilePath: Jenkinsfile
      triggers:
      - generic:
-         secret:
+         secret: 
        type: Generic
 	
